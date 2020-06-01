@@ -218,7 +218,7 @@ X_train, X_test, Y_train, Y_test =train_test_split(X, Y, test_size = 0.25, rando
 from sklearn.preprocessing import StandardScaler
 sc = StandardScaler()
 X_train = sc.fit_transform(X_train)
-X_test = sc.fit_transform(X_test_
+X_test = sc.fit_transform(X_test)
 
 # In[27]:
 
